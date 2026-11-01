@@ -1,39 +1,50 @@
-# Awesome Product Discovery & Idea Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Product Discovery & Idea Management [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-> A curated list of notable SaaS platforms and open-source GitHub projects for Product Discovery, Customer Feedback Capture, Idea Management, Feature Voting, and Prioritization Roadmaps.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Product Discovery and Idea Management Banner" width="100%" />
+</p>
 
-[![Track Awesome List Updates](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management/pulls)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+> 💡 A curated list of notable SaaS platforms and open-source GitHub projects for Product Discovery, Customer Feedback Capture, Idea Management, Feature Request Voting, and Prioritization Roadmaps.
 
-Product discovery and idea management enable cross-functional product management teams to centralize qualitative customer feedback, intake feature requests, validate assumptions, score backlog priorities using structured frameworks (RICE, Value vs. Effort, MoSCoW), and synchronize discovery backlogs directly with execution toolchains.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Track Awesome List Updates" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Comparison & Architecture Insights](#comparison--architecture-insights)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+Product discovery and idea management enable cross-functional product management teams to centralize qualitative customer feedback 💬, intake feature requests 🗳️, validate assumptions 🔬, score backlog priorities using structured frameworks (RICE, Value vs. Effort, MoSCoW) 🎯, and synchronize discovery backlogs directly with execution toolchains 🚀.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global idea management and product discovery software market is estimated at **$1.8B to $2.5B+**, expanding toward **$6.5B+** over the next decade at a CAGR of roughly **11% to 13%**. 
-
-The sector is **moderately fragmented**: rather than a winner-take-all monopoly, the market is divided among ecosystem giants (such as Atlassian absorbing delivery-adjacent discovery), specialized VC-backed enterprise suites (like Productboard), bootstrapped market staples (such as Aha! and Canny), and an active long-tail of modular roadmapping platforms and self-hosted open-source feedback boards.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧠 Comparison & Architecture Insights](#-comparison--architecture-insights)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
 ---
 
-## SaaS / Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-Below is a comparison of commercial SaaS solutions for product discovery, idea prioritization, and customer feedback boards. Entries are ordered by company size (market capitalization or latest enterprise valuation / ARR in descending order).
+The global idea management and product discovery software market is estimated at **$1.8B to $2.5B+**, expanding toward **$6.5B+** over the next decade at a CAGR of roughly **11% to 13%** 📈. 
 
-| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Free Trial Limits | Primary Focus & Discovery Capabilities |
+The sector is **moderately fragmented**: rather than a winner-take-all monopoly, the market is divided among ecosystem giants (such as Atlassian absorbing delivery-adjacent discovery), specialized VC-backed enterprise suites (like Productboard), bootstrapped market staples (such as Aha! and Canny), and an active long-tail of modular roadmapping platforms and self-hosted open-source feedback boards 🧩.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a comparison of commercial SaaS solutions for product discovery, idea prioritization, and customer feedback boards. Entries are ordered by company size (market capitalization or latest enterprise valuation / ARR in descending order) 🏢.
+
+| Platform | Company Size (Valuation / Revenue) 💼 | Starting Tier Pricing 🏷️ | Free Tier / Free Trial Limits 🎁 | Primary Focus & Discovery Capabilities 🛠️ |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Jira Product Discovery](https://www.atlassian.com/software/jira/product-discovery)** | Market Cap: ~$50B–$58B (Atlassian NASDAQ: TEAM, ~$5.2B+ ARR) | $10.50 / creator / month (billed annually) or $12 / creator / month | Free forever plan for up to 3 creators, unlimited free viewers, and 2 GB storage | Deeply integrated into Atlassian Jira Software; captures ideas, structures insight matrices, and automates delivery sync. |
 | **[Productboard](https://www.productboard.com/)** | Valuation: $1.725B (Series D; ~$70M–$75M ARR) | $19 / maker / month (billed annually, Plus plan) or $25 / month | Free plan: up to 1 maker, 50 Spark AI credits/mo; 15-day free trial on paid plans with full features | Industry benchmark for full-cycle product discovery, customer feedback aggregation (Slack, Zendesk), and roadmap scoring. |
@@ -48,11 +59,11 @@ Below is a comparison of commercial SaaS solutions for product discovery, idea p
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-Curated open-source repositories for self-hosted product discovery, customer feedback boards, feature request voting, and roadmap management. Entries are ordered by GitHub star count in descending order.
+Curated open-source repositories for self-hosted product discovery, customer feedback boards, feature request voting, and roadmap management. Entries are ordered by GitHub star count in descending order ⭐.
 
-| Repository | GitHub Stars | License | Core Capabilities & Architecture |
+| Repository | GitHub Stars 🌟 | License 📄 | Core Capabilities & Architecture ⚙️ |
 | :--- | :--- | :--- | :--- |
 | **[Plane](https://github.com/makeplane/plane)** | [![Plane Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Modern open-source software development and project management workspace with cycles, modules, pages, and interactive roadmaps. |
 | **[OpenProject](https://github.com/opf/openproject)** | [![OpenProject Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | GPL-3.0 | Enterprise project portfolio management, product discovery roadmaps, agile boards, and requirements management platform. |
@@ -69,22 +80,40 @@ Curated open-source repositories for self-hosted product discovery, customer fee
 
 ---
 
-## Comparison & Architecture Insights
+## 🧠 Comparison & Architecture Insights
 
-- **Commercial Strengths**: Dedicated SaaS platforms (Productboard, Jira Product Discovery, Aha!) provide deep two-way integration loops between customer insights, strategy frameworks (RICE, value vs. complexity), and issue trackers (Jira, Linear, Azure DevOps).
-- **Open-Source Viability**: Self-hosted solutions (such as Quackback, Fider, LogChimp, and ClearFlask) deliver excellent feedback capture, community upvoting, and public roadmaps without per-seat licensing costs. Pairing a self-hosted feedback collector with an agile delivery tool (like Plane or OpenProject) provides a cost-effective, self-hosted product discovery stack.
-
----
-
-## How to Contribute
-
-1. Fork this repository.
-2. Add or update entries following the table format above (ensure pricing, free tier limits, GitHub star badges, and links are accurate).
-3. Submit a pull request with a descriptive title and summary of changes.
+- **Commercial Strengths** 🏆: Dedicated SaaS platforms (Productboard, Jira Product Discovery, Aha!) provide deep two-way integration loops between customer insights, strategy frameworks (RICE, value vs. complexity), and issue trackers (Jira, Linear, Azure DevOps).
+- **Open-Source Viability** 🛠️: Self-hosted solutions (such as Quackback, Fider, LogChimp, and ClearFlask) deliver excellent feedback capture, community upvoting, and public roadmaps without per-seat licensing costs. Pairing a self-hosted feedback collector with an agile delivery tool (like Plane or OpenProject) provides a cost-effective, self-hosted product discovery stack.
 
 ---
 
-## Disclaimer
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Discovery-Idea-Management&type=date&legend=top-left)](htpps://star-history.dera.page/#ishandutta2007/Awesome-Product-Discovery-Idea-Management&type=date&legend=top-left)
 
-- This list is community-curated for informational and comparative purposes.
-- Check vendor websites and official repository licenses for up-to-date pricing, terms, and AGPL/GPL compliance requirements when self-hosting.
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and supporting the **Awesome Product Discovery & Idea Management** project! 🙏
+
+If you found this curated list helpful in choosing your product stack or setting up self-hosted feedback tooling, please consider:
+- ⭐ **Starring** this repository to show your appreciation and help other PMs discover it.
+- 🍴 **Forking** the repository to customize or contribute back to the community.
+- 📢 **Sharing** it with your product management, engineering, and product operations colleagues.
+- ☕ **Buying a coffee / Sponsoring** the maintainer to support ongoing open-source curation and tooling work:  
+  👉 **[Sponsor Dashboard on GitHub](https://github.com/sponsors/ishandutta2007)**
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴.
+2. Add or update entries following the table format above (ensure pricing, free tier limits, GitHub star badges, and links are accurate) ✍️.
+3. Submit a pull request with a descriptive title and summary of changes 🚀.
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is community-curated for informational and comparative purposes 📌.
+- Check vendor websites and official repository licenses for up-to-date pricing, terms, and AGPL/GPL compliance requirements when self-hosting 🔍.
