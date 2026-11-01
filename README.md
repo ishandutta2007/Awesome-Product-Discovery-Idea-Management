@@ -1,193 +1,90 @@
-# Awesome-Product-Discovery-Idea-Management
+# Awesome Product Discovery & Idea Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top Product Discovery & Idea Management Ecosystem
+> A curated list of notable SaaS platforms and open-source GitHub projects for Product Discovery, Customer Feedback Capture, Idea Management, Feature Voting, and Prioritization Roadmaps.
 
+[![Track Awesome List Updates](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Product-Discovery-Idea-Management/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Feedback Capture, Idea Prioritization & Self-Hosted Discovery Platforms*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Product Discovery & Idea Management**. These tools enable product teams to capture customer feedback, centralize ideas, prioritize against strategic criteria, and connect discovery work to delivery—turning scattered input into a coherent, evidence-based product direction.
-
-
-
-**Examples** include Jira Product Discovery, Productboard, Aha!, Airfocus, Dragonboat, Roadmunk, ProdPad, Craft.io, Feedback Loop, and Canny (the category leaders).
-
-
-
-**Open-source emphasis**: Product Discovery & Idea Management is a domain where open-source tooling has **genuinely matured at the feedback-capture layer but remains fragmented for the full discovery-to-delivery loop**. **Quackback** is the most comprehensive open-source Canny/UserVoice/Productboard alternative—self-hosted with feedback boards, AI duplicate detection, roadmap, changelog, and 24 integrations including two-way Jira/Linear/GitHub sync . **Fider** provides the most established feedback portal and feature voting platform, actively maintained and simple to deploy . **Tuti** offers a modern Next.js feedback platform with per-project portals and AI-assisted duplicate merging, though it remains early-stage . The critical caveat: **no open-source project matches Productboard's integrated feedback-to-roadmap-to-delivery synchronization**—you either assemble a feedback board (Quackback, Fider) with a separate PM tool, or accept that the full discovery loop requires stitching multiple tools together.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Jira Product Discovery](https://www.atlassian.com/software/jira/product-discovery)**  
-
-  Atlassian's dedicated product discovery tool; **Standard plan at $10.50 per creator/month** (annual billing), with a **Free tier for up to 3 creators** and 2GB storage . Captures ideas, collects insights, prioritizes with custom formulas, and creates roadmaps that link directly to Jira Software for delivery tracking. **Best for teams already in the Atlassian ecosystem** wanting discovery tightly coupled to execution—the lowest cost entry point among major commercial platforms .
-
-
-
-- **[Productboard](https://www.productboard.com/)**  
-
-  The benchmark for product management platforms. **Free tier with 50 AI credits/month**; **Plus at $19/maker/month annual** ($25 monthly); **Business at $59/maker/month** with a two-maker minimum ($75 monthly billing) . Centralizes feedback from Slack, Zendesk, Intercom, and review stores; prioritizes with custom scoring frameworks; communicates roadmaps. **Spark AI** is included across plans with pooled credits (250/maker on Plus, 500/maker on Business) . **Best for teams wanting the most mature discovery-to-roadmap workflow**—but Business tier pricing scales significantly with maker count .
-
-
-
-- **[Aha!](https://www.aha.io/)**  
-
-  Comprehensive product management suite. **Roadmaps pricing starts at $9/user/month** for the Startup plan (annual) and **$18/user/month** for Premium; **Enterprise and Enterprise+ include unlimited reviewers and viewers at no cost** . Ideas portal users are always free. AI credits are pooled per account. **Discovery Advanced** add-on at **$40/user/month** (minimum 3 users) . **Best for organizations wanting end-to-end product management** (strategy, roadmaps, ideas, whiteboards)—but the full stack adds up quickly .
-
-
-
-- **[Airfocus](https://airfocus.com/)**  
-
-  Modular product management platform with prioritization scorecards, roadmaps, and feedback portals; known for flexible, customizable workflows. **Starting price around $59/month** .
-
-
-
-- **[Dragonboat](https://dragonboat.io/)**  
-
-  Product portfolio management platform focused on strategic alignment, capacity planning, and outcome-driven roadmapping.
-
-
-
-- **[Roadmunk](https://roadmunk.com/)**  
-
-  Roadmap planning and communication platform with multiple timeline views and stakeholder collaboration.
-
-
-
-- **[ProdPad](https://www.prodpad.com/)**  
-
-  Product management platform for idea capture, prioritization, and roadmap communication. **Roadmap tier at $20–$25/editor/month annual**; **Advanced at $49–$69/editor/month**—typically lower total cost than Productboard for similar team sizes .
-
-
-
-- **[Craft.io](https://craft.io/)**  
-
-  Product management platform focused on prioritization and roadmapping with customizable scoring frameworks.
-
-
-
-- **[Feedback Loop](https://feedbackloop.com/)**  
-
-  Customer feedback platform for product teams; centralizes feedback from support, sales, and community sources for prioritization.
-
-
-
-- **[Canny](https://canny.io/)**  
-
-  Feature request tracking and roadmap platform with voting, comments, and changelog; the standard for customer-facing feedback boards.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Feedback & Voting Platforms (Canny/Productboard Alternatives)
-
-
-
-- **[Quackback](https://github.com/QuackbackIO/quackback)**  
-
-  The most comprehensive open-source **Canny/UserVoice/Productboard alternative** available (self-hosted or cloud) . Features: **feedback boards** with voting, comments, and status tracking; **Quinn AI** for duplicate detection, theme summarization, and an **MCP server** (23 tools) that lets AI agents search, triage, and act on feedback; **admin inbox** for triage; **roadmap and changelog** with scheduled publishing; **24 integrations** including Slack, Linear, Jira, GitHub, Intercom, Zendesk, and **two-way issue tracker sync**; **embeddable widget** with native iOS/Android SDKs; **REST API, webhooks, and MCP**. Docker deployment with PostgreSQL and Redis; migrations run automatically on startup. **Licensing**: self-hosting is free and fully functional; modifications distributed as a service must be open-sourced under AGPL-3.0 . **Best for teams wanting a complete, self-hosted feedback-to-roadmap platform**—the closest open-source equivalent to Productboard's feedback layer.
-
-
-
-- **[Fider](https://github.com/getfider/fider)**  
-
-  The most established open-source **feedback portal and feature voting platform** (AGPL-3.0, actively maintained, ~4.5k GitHub stars) . Features: **centralized portal** where users submit ideas and vote; comments and discussions; **status updates** for communicating progress; user authentication; simple, lightweight interface. Deployable via Docker Compose. **Best for teams wanting a focused, proven feedback board** without the complexity of a full product management suite—but it is feedback-only, lacking roadmap views, prioritization scorecards, or integrations with delivery tools.
-
-
-
-- **[Tuti](https://github.com/omnivision-solutions/tuti)**  
-
-  Open-source **feature voting and product feedback platform** (Next.js 16, PostgreSQL, AGPL-3.0, v0.x) . Features: **per-project public portals on subdomains** (boards, posts, votes, comments, JWT SSO sign-in through your app); **dashboard for the team** (statuses, **AI-assisted duplicate merging**, boards, team roles); **MCP server** for AI agent access. **Critical caveat**: it is **early-stage** (v0.x, September 2026) with GitHub integration planned but not yet shipped . **Best for teams wanting a modern, self-hosted feedback portal with AI duplicate detection**—but verify production readiness before relying on it.
-
-
-
-### Roadmap & Prioritization (Standalone)
-
-
-
-- **Product Roadmap Planner** — Open-source **product roadmap planning tool** (SvelteKit 5, no backend—local storage). Features: CRUD for features with **Impact × Effort priority scoring**; interactive Priority Matrix; quarterly timeline with drag-and-drop; progress dashboard with risk alerts and executive summary; JSON export/import. **Best for individual PMs or small teams wanting a lightweight, browser-only roadmap planner**—but no backend, no collaboration, and no persistence beyond local storage.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Plane** — Open-source project management platform (AGPL-3.0) with cycles, modules, and roadmap views. **Not a discovery tool**—it is delivery-focused PM, but relevant for teams wanting to link prioritized features to execution.
-
-- **LogChimp** — Open-source Canny/ProductBoard alternative with brand-customizable feedback portals and basic roadmap organization; lighter than Quackback but less feature-dense.
-
-
-
-**Frameworks for building custom systems**: For a **complete feedback-to-roadmap platform**, Quackback provides the most comprehensive open-source option with AI duplicate detection and 24 integrations . For a **focused, proven feedback board**, Fider . For **AI-assisted duplicate detection in an early-stage platform**, Tuti . For **lightweight roadmap planning**, Product Roadmap Planner (local-only) or Plane (full PM). **No open-source project matches Productboard's integrated feedback-to-roadmap-to-delivery synchronization**—you either assemble feedback (Quackback, Fider) with a PM tool (Plane), or accept that the full loop requires stitching multiple tools together.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Product discovery platforms handling customer feedback and roadmap data must comply with applicable privacy regulations (GDPR, CCPA) and data governance policies; **self-hosted solutions place full responsibility for security, backups, and uptime on the operator**.
-
-- **Open-source product discovery is genuinely viable for feedback capture but fragmented for the full discovery loop**—Quackback provides a comprehensive feedback-to-roadmap platform , and Fider provides a proven feedback board . However, **no open-source project matches Productboard's integrated feedback-to-roadmap-to-delivery synchronization**—organizations requiring the full discovery-to-delivery loop should evaluate commercial platforms or plan for integration work.
-
-- Verify license terms for commercial use; Quackback's self-hosting is free with AGPL-3.0 for modifications distributed as a service , and Fider uses AGPL-3.0 .
-
-
+Product discovery and idea management enable cross-functional product management teams to centralize qualitative customer feedback, intake feature requests, validate assumptions, score backlog priorities using structured frameworks (RICE, Value vs. Effort, MoSCoW), and synchronize discovery backlogs directly with execution toolchains.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Comparison & Architecture Insights](#comparison--architecture-insights)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for product managers, product operations teams, and organizations building discovery and prioritization infrastructure.**  
+---
 
-Let's make product discovery and idea management more open, but with clear eyes about the integrated discovery-to-delivery gap that commercial platforms still fill.
+## Sector Overview & Market Dynamics
+
+The global idea management and product discovery software market is estimated at **$1.8B to $2.5B+**, expanding toward **$6.5B+** over the next decade at a CAGR of roughly **11% to 13%**. 
+
+The sector is **moderately fragmented**: rather than a winner-take-all monopoly, the market is divided among ecosystem giants (such as Atlassian absorbing delivery-adjacent discovery), specialized VC-backed enterprise suites (like Productboard), bootstrapped market staples (such as Aha! and Canny), and an active long-tail of modular roadmapping platforms and self-hosted open-source feedback boards.
+
+---
+
+## SaaS / Hosted Platforms
+
+Below is a comparison of commercial SaaS solutions for product discovery, idea prioritization, and customer feedback boards. Entries are ordered by company size (market capitalization or latest enterprise valuation / ARR in descending order).
+
+| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Free Trial Limits | Primary Focus & Discovery Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Jira Product Discovery](https://www.atlassian.com/software/jira/product-discovery)** | Market Cap: ~$50B–$58B (Atlassian NASDAQ: TEAM, ~$5.2B+ ARR) | $10.50 / creator / month (billed annually) or $12 / creator / month | Free forever plan for up to 3 creators, unlimited free viewers, and 2 GB storage | Deeply integrated into Atlassian Jira Software; captures ideas, structures insight matrices, and automates delivery sync. |
+| **[Productboard](https://www.productboard.com/)** | Valuation: $1.725B (Series D; ~$70M–$75M ARR) | $19 / maker / month (billed annually, Plus plan) or $25 / month | Free plan: up to 1 maker, 50 Spark AI credits/mo; 15-day free trial on paid plans with full features | Industry benchmark for full-cycle product discovery, customer feedback aggregation (Slack, Zendesk), and roadmap scoring. |
+| **[Aha!](https://www.aha.io/)** | Revenue: >$100M ARR (Bootstrapped / Profitable, No external VC) | $9 / user / month (Startup plan, billed annually) or $18 / user / month (Premium) | 30-day free trial with full access to all features (no credit card required); no perpetual free tier | Comprehensive product strategy and roadmapping suite; includes Ideas portals with unlimited free portal users and review submitters. |
+| **[Feedback Loop (DISQO)](https://feedbackloop.com/)** | Valuation: Acquired by DISQO ($85M Series S round; ~$40M+ parent ARR) | Custom enterprise quote; historic pilot bundles start at $1,500 / month | Free brand lift tier for media publishers; enterprise evaluation trials available upon sales consultation (no open self-serve trial) | Agile consumer research and rapid concept validation engine for testing product hypotheses with targeted consumer panels. |
+| **[Airfocus](https://airfocus.com/)** | Valuation: Acquired by Lucid Software (~$15M VC raised prior; ~$2M+ ARR) | $59 / editor / month (Core plan, billed annually) | No self-serve free trial; guided sandboxed live demos provided via sales upon request | Modular product discovery and portfolio prioritization tool with customizable scoring matrices, Priority Poker, and roadmap views. |
+| **[Craft.io](https://craft.io/)** | Funding / Revenue: ~$8M–$20M funding; ~$5M–$7.6M ARR | $19 / editor / month (Starter plan, billed annually) or $24 / month | 14-day free trial of Pro tier with all add-ons unlocked and unlimited free viewers | Product management workspace featuring Guru AI, custom formula scoring, OKR alignment, and bidirectional issue tracker synchronization. |
+| **[Roadmunk](https://roadmunk.com/)** | Valuation: Acquired by Tempo Software / Diversis Capital (~$2.2M–$8M ARR) | $19 / user / month (Starter plan, minimum 2 users, billed annually) | 14-day free trial with full access to Business-tier roadmapping and collaborator features (no credit card required) | Visual timeline and swimlane roadmap builder featuring customer feedback management and strategic alignment boards. |
+| **[Canny](https://canny.io/)** | Revenue: ~$3.5M–$5M ARR (Bootstrapped & Profitable) | $79 / month (Pro plan for up to 100 tracked users, billed annually) | Free forever plan: up to 25 lifetime tracked users, 5 manager seats, unlimited contributor seats, autopilot AI, and boards | Customer-facing feedback boards, feature request voting, automatic duplicate detection, public roadmaps, and changelogs. |
+| **[Dragonboat](https://dragonboat.io/)** | Funding / Revenue: ~$15M–$17M venture funding; ~$3.4M ARR | $39 / editor / month (Essential starting tier; custom quote for 5+ editors) | Sandbox pilot access granted upon sales consultation; paid plans include up to 100 free read-only/requestor seats | Product Portfolio Management (PPM) connecting high-level strategy, customer idea intake, and outcome-driven roadmap execution. |
+| **[ProdPad](https://www.prodpad.com/)** | Revenue: ~$1.3M–$3.8M ARR (Bootstrapped) | $24 / editor / month (Essentials per module, billed annually) | 7-day free trial expandable up to 30+ days via onboarding milestones, includes unlimited free reviewers | Lean product discovery tool focusing on Now-Next-Later roadmaps, customer idea backlogs, and customer feedback management. |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated open-source repositories for self-hosted product discovery, customer feedback boards, feature request voting, and roadmap management. Entries are ordered by GitHub star count in descending order.
+
+| Repository | GitHub Stars | License | Core Capabilities & Architecture |
+| :--- | :--- | :--- | :--- |
+| **[Plane](https://github.com/makeplane/plane)** | [![Plane Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Modern open-source software development and project management workspace with cycles, modules, pages, and interactive roadmaps. |
+| **[OpenProject](https://github.com/opf/openproject)** | [![OpenProject Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | GPL-3.0 | Enterprise project portfolio management, product discovery roadmaps, agile boards, and requirements management platform. |
+| **[Formbricks](https://github.com/formbricks/formbricks)** | [![Formbricks Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | AGPL-3.0 | Privacy-first micro-survey and user feedback suite to capture qualitative product discovery insights directly inside web and mobile apps. |
+| **[Fider](https://github.com/getfider/fider)** | [![Fider Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) | AGPL-3.0 | Established and lightweight open-source feedback portal and feature voting system built with Go and React. |
+| **[FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)** | [![FeatureProbe Stars](https://img.shields.io/github/stars/FeatureProbe/FeatureProbe?style=social&color=white)](https://github.com/FeatureProbe/FeatureProbe/stargazers) | Apache-2.0 | Feature management and experimentation platform to safely validate discovery hypotheses, roll out features, and run A/B testing. |
+| **[LogChimp](https://github.com/logchimp/logchimp)** | [![LogChimp Stars](https://img.shields.io/github/stars/logchimp/logchimp?style=social&color=white)](https://github.com/logchimp/logchimp/stargazers) | Apache-2.0 | Open-source feedback tracking and roadmap software built on Node.js and Vue.js; designed as a lightweight self-hosted Canny alternative. |
+| **[ClearFlask](https://github.com/clearflask/clearflask)** | [![ClearFlask Stars](https://img.shields.io/github/stars/clearflask/clearflask?style=social&color=white)](https://github.com/clearflask/clearflask/stargazers) | Apache-2.0 | Modular feedback management tool offering public idea voting, customer request tracking, public roadmaps, and announcement changelogs. |
+| **[Quackback](https://github.com/QuackbackIO/quackback)** | [![Quackback Stars](https://img.shields.io/github/stars/QuackbackIO/quackback?style=social&color=white)](https://github.com/QuackbackIO/quackback/stargazers) | AGPL-3.0 | Comprehensive feedback-to-roadmap hub with AI duplicate detection, 24 integrations (GitHub, Jira, Linear), MCP server, and SDKs. |
+| **[ShipShipShip](https://github.com/GauthierNelkinsky/ShipShipShip)** | [![ShipShipShip Stars](https://img.shields.io/github/stars/GauthierNelkinsky/ShipShipShip?style=social&color=white)](https://github.com/GauthierNelkinsky/ShipShipShip/stargazers) | MIT | Lightweight self-hostable changelog, feedback voting, and roadmap web application built with Go and SvelteKit. |
+| **[OpenHeard](https://github.com/Heilonng23/openheard)** | [![OpenHeard Stars](https://img.shields.io/github/stars/Heilonng23/openheard?style=social&color=white)](https://github.com/Heilonng23/openheard/stargazers) | MIT | Open-source Canny and Featurebase alternative for tracking customer feature suggestions, community upvoting, and feedback threads. |
+| **[FeedbackJar](https://github.com/fayazara/feedbackjar)** | [![FeedbackJar Stars](https://img.shields.io/github/stars/fayazara/feedbackjar?style=social&color=white)](https://github.com/fayazara/feedbackjar/stargazers) | MIT | Self-hostable feedback widget and dashboard empowering teams to capture user requests, track issues, and publish updates. |
+| **[Tuti](https://github.com/omnivision-solutions/tuti)** | [![Tuti Stars](https://img.shields.io/github/stars/omnivision-solutions/tuti?style=social&color=white)](https://github.com/omnivision-solutions/tuti/stargazers) | AGPL-3.0 | Modern feature voting and product feedback portal written in Next.js with multi-tenant subdomain boards and AI duplicate merging. |
+
+---
+
+## Comparison & Architecture Insights
+
+- **Commercial Strengths**: Dedicated SaaS platforms (Productboard, Jira Product Discovery, Aha!) provide deep two-way integration loops between customer insights, strategy frameworks (RICE, value vs. complexity), and issue trackers (Jira, Linear, Azure DevOps).
+- **Open-Source Viability**: Self-hosted solutions (such as Quackback, Fider, LogChimp, and ClearFlask) deliver excellent feedback capture, community upvoting, and public roadmaps without per-seat licensing costs. Pairing a self-hosted feedback collector with an agile delivery tool (like Plane or OpenProject) provides a cost-effective, self-hosted product discovery stack.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add or update entries following the table format above (ensure pricing, free tier limits, GitHub star badges, and links are accurate).
+3. Submit a pull request with a descriptive title and summary of changes.
+
+---
+
+## Disclaimer
+
+- This list is community-curated for informational and comparative purposes.
+- Check vendor websites and official repository licenses for up-to-date pricing, terms, and AGPL/GPL compliance requirements when self-hosting.
