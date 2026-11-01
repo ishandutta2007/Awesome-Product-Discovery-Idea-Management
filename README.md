@@ -61,9 +61,9 @@ Below is a comparison of commercial SaaS solutions for product discovery, idea p
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source repositories for self-hosted product discovery, customer feedback boards, feature request voting, and roadmap management. Entries are ordered by GitHub star count in descending order ⭐.
+Curated open-source repositories for self-hosted product discovery, customer feedback boards, feature request voting, and roadmap management. Entries are ordered by GitHub Stars_Count in descending order ⭐.
 
-| Repository | GitHub Stars 🌟 | License 📄 | Core Capabilities & Architecture ⚙️ |
+| Repository | GitHub_Stars 🌟 | License 📄 | Core Capabilities & Architecture ⚙️ |
 | :--- | :--- | :--- | :--- |
 | **[Plane](https://github.com/makeplane/plane)** | [![Plane Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Modern open-source software development and project management workspace with cycles, modules, pages, and interactive roadmaps. |
 | **[OpenProject](https://github.com/opf/openproject)** | [![OpenProject Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | GPL-3.0 | Enterprise project portfolio management, product discovery roadmaps, agile boards, and requirements management platform. |
@@ -108,7 +108,7 @@ If you found this curated list helpful in choosing your product stack or setting
 ## 🤝 How to Contribute
 
 1. Fork this repository 🍴.
-2. Add or update entries following the table format above (ensure pricing, free tier limits, GitHub star badges, and links are accurate) ✍️.
+2. Add or update entries following the table format above (ensure pricing, free tier limits, GitHub Stars_Badges, and links are accurate) ✍️.
 3. Submit a pull request with a descriptive title and summary of changes 🚀.
 
 ---
